@@ -1,1 +1,10 @@
-
+body{
+    background-color: #003;
+    color: #fff;
+}
+p{
+    line-height: 200%;
+}
+img{
+    width: 300px;
+}
