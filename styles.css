@@ -26,6 +26,7 @@ h2{
 }
 h3{
     padding-top: 5px;
+    padding-bottom: 5px;
     border-left: 20px groove white;
     padding-left: 15px;
     border-radius: 10px;
@@ -76,4 +77,59 @@ a:active{
     padding:2px;
     border-radius: 3px;
     font-weight: bold;
+}
+#sidebar{
+    background-color: black;
+    width: 30%;
+    line-height: 2.25em;
+    border: 2px solid white;
+    float: right;
+    margin: 20px;
+    margin-top: 70px;
+}
+#sidebar h3{
+    border: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 15px;
+    margin: auto;
+    background: none;
+}
+li{
+    text-decoration: underline;
+}
+@media(max-width:1200px){
+    #container{
+        background-color: #b00;
+        width: 800px;
+    }
+}
+@media(max-width:992px){
+    #container{
+        background-color: #002;
+    }
+    body, p , #container, #p2, h3{
+        margin: 0;
+        border: none;
+        padding: 0;
+    }
+    p, #p2, h3{
+        padding: 20px;
+    }
+}
+@media(max-width:786px){
+    #sidebar{
+        display: none;
+    }
+    #container{
+        width:100%;
+    }
+    h1{
+        border:none;
+        background: none;
+        width: 90%;
+    }
+    img, #pic1{
+        width: 200px;
+    }
 }
