@@ -7,25 +7,51 @@
   
   <body>
     <div id="container">
-    <h1>Dylan Kim</h1>
-    <h2 class="highlight">SDUHSD</h2>
+    <h1 class="squiggle">Dylan Kim</h1>
+    <button class="greeter" aria-label="Waving hello">
+      <span class="hand" aria-hidden="true">👋</span>
+      <span class="face" aria-hidden="true">🙂</span>
+    </button>
+    
+    <svg width="0" height="0" aria-hidden="true" focusable="false">
+      <defs>
+        <filter id="squiggle-0">
+          <feTurbulence baseFrequency="0.015" numOctaves="1" seed="0"/>
+          <feDisplacementMap in="SourceGraphic" scale="2"/>
+        </filter>
+        <filter id="squiggle-1">
+          <feTurbulence baseFrequency="0.015" numOctaves="1" seed="1"/>
+          <feDisplacementMap in="SourceGraphic" scale="2"/>
+        </filter>
+        <filter id="squiggle-2">
+          <feTurbulence baseFrequency="0.015" numOctaves="1" seed="2"/>
+          <feDisplacementMap in="SourceGraphic" scale="2"/>
+        </filter>
+        <filter id="squiggle-3">
+          <feTurbulence baseFrequency="0.015" numOctaves="1" seed="3"/>
+          <feDisplacementMap in="SourceGraphic" scale="2"/>
+        </filter>
+      </defs>
+    </svg>
+
+    <h2 class="highlight">Nickname: DK</h2>
 
     <div id="sidebar">
     <h3>Information</h3>
     <ul>
-      <li>Fact 1</li>
-      <li>Fact 2</li>
-      <li>Fact 3</li>
-      <li>Fact 4</li>
-      <li>Fact 5</li>
-      <li>Fact 6</li>
+      <li>Age: 17</li>
+      <li>Date of Birth: 10/03/2008</li>
+      <li>Birthplace: Irvine, CA</li>
+      <li>Favorite Subject: Math</li>
+      <li>Favorite Sport: Baseball</li>
+      <li>Favorite Waterbottle: Kirkland</li>
     </ul>
 
     </div>
 
     <h3>Intro to My Life</h3>
     <p> <img src="images/pic3.png" id='pic1'>
-      My name is Dylan Kim. I am a 17 year old junior at <a href = "https://cc.sduhsd.net/" target = "_blank">CCA</a> and originally from Korea. If there is one common characteristic throughout my life, it would be change. Changing environments and circumstances have fundamentally changed my perspectives on life and personal matters. This adaptation to change and embracing hardship can be noticed throughout numerous examples throughout my life. For example, I’m not even sure how I’ve made meaningful friendships despite having moved schools at least five times. </p>
+      My name is Dylan Kim. I am a 17 year old junior at <a href = "https://cc.sduhsd.net/" target = "_blank">CCA</a>, and I was born in <span class="highlight">Irvine, CA</span>. If there is one common characteristic throughout my life, it would be change. Changing environments and circumstances have fundamentally changed my perspectives on life and personal matters. This adaptation to change and embracing hardship can be noticed throughout numerous examples throughout my life. For example, I’m not even sure how I’ve made meaningful friendships despite having moved schools at least five times. </p>
     <h3>Music</h3>
     <p> <img src="images/pic2.jpg" id="pic2">
       Over the years, I’ve picked up various interests, one of them being <span class="highlight">clarinet and classical music</span>. Initially, I was forced into picking up an instrument by my elementary school wasn’t even very fond of it. However, as I dedicate more time to practice and meeting new people with an expertise in this instrument, I have begun noticing the immense value of it. I’ve played in various bands and orchestras throughout San Diego and the state. I’ve found myself looking forward to attending <a href = "https://www.sandiegosymphony.org/" target = "_blank">San Diego Symphony</a> concerts every weekend, studying the music they are going to play before attending the concerts. Music is something that has brought solace and great friends into my life. It serves as a peaceful getaway from the stresses of everyday life </p>
